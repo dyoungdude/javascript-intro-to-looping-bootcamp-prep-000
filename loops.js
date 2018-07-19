@@ -11,16 +11,10 @@ function forLoop(array){
 }
 
 function whileLoop(n){
-  let number = n;
-  return number;
-}
-
-while (n > 0){
-  --whileLoop();
-  console.log(--whileLoop);
-  if (n === 0){
-    console.log('done');
+  while (n > 0){
+  console.log(n--);
   }
+  return 'done';
 }
 
 function doWhileLoop(array){
